@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="form border border-1 rounded-3 p-4 m-auto">
+      <div class="head text-center">
+        <h3>Create an Account</h3>
+        <p>Please Enter Your Details to Create New Account</p>
+      </div>
+      <div class="">
+        <form action="">
+          <div class="mt-2 mb-2">
+            <label for="Fname">First Name</label>
+            <input
+              type="text"
+              name="Fname"
+              id="Fname"
+              placeholder="Enter your Firstname"
+              class="form-control"
+            />
+    
+          </div>
+          <div class="mt-2 mb-2">
+            <label for="Lname">Last Name</label>
+            <input
+              type="text"
+              name="Lname"
+              id="Lname"
+              placeholder="Enter your Lastname"
+              class="form-control"
+            />
+          </div>
+          <div class="mb-2 ">
+            <label for="Mnumber">Mobile Number</label>
+            <div class="mobile">
+              <select name="Mnumber" id="">
+                <option value="1">+444</option>
+                <option value="2">+234</option>
+              </select>
+              <input
+                type="number"
+                name="Mnumber"
+                id="Mnumber"
+                placeholder="Enter your Number"
+                class=" w-75"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+              class="form-control"
+            />
+          </div>
+          
+          <!-- gender -->
+          <div class="mt-2 ">
+            <label for="gender">Gender</label>
+            <div class="gender form-check form-check-flex">
+              <div class="female form-check form-check-inline border border-1 border-dark px-2 px-lg-4 py-1">
+                <label for="female">Female</label>
+                <input type="radio" id="gender" name="gender" />
+              </div>
+              <div class="male form-check form-check-inline border border-1 border-dark px-2 px-lg-4 py-1">
+                <label for="male">Male</label>
+                <input type="radio" id="gender" name="gender" />
+              </div>
+              <div class="custom form-check form-check-inline border border-1 border-dark px-2 px-lg-4 py-1">
+                <label for="custom">Custom</label>
+                <input type="radio" id="gender" name="gender" class="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- password -->
+          <div class="mt-2">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control" />
+          </div>
+          <div>
+            <label for="password">Confirm Password</label>
+            <input type="password" name="password" id="password" class="form-control" />
+          </div>
+          <div class="terms d-flex pt-2">
+            <input type="checkbox" name="terms" id="terms" />
+            <label id="term" for="terms"
+              >By signing up you aggree to the terms & condition & privacy
+              policy</label
+            >
+          </div>
+        </form>
+        <button class="btn btn-signup border rounded-1 w-100 mt-3 p-2 mb-2" type="submit"><a href="index.html">Sign Up</a></button>
+        <p id="Login" class="">
+          Already have an account? <a href="Login.html">Login</a>
+        </p>
+      </div>
+    </div>
+  </body>
+
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</html>
